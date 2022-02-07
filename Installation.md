@@ -26,5 +26,10 @@ Buzzer 1
 - If your installation was succcessful, the Arduino Sketch will be loaded into the IDE and your Ardunio Uno should have been auto detected now by the IDE
 - Upload the sketch into your Arduino Uno
 - Restart the Arduino Uno
-- Your Arduino Uno should start automatically detecting the distance and trigger the alert system
-> Note: While the cable is connected to your PC, you can use the Arduino IDE Serial Port to get real time updates on the obstacle distance. (Serial Port : 19200)
+- Now once powered, your Arduino Uno should start automatically detecting the distance and trigger the alert system
+
+```
+Note:
+- You can power the Arduino Uno by connecting a 9V Battery to the power port or by the USB Data cable. Both ways work fine.
+- While the cable is connected to your PC, you can use the Arduino IDE Serial Monitor to get real time updates on the detected distance. (Set Serial Port to 19200, if no output)
+```
