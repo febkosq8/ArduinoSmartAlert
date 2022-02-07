@@ -31,12 +31,11 @@ This duration will be converted into distance, and the code will pass it on to o
 
 *Our code is configured to trigger the HC-SR04 3 times/second so that the user can always get updated reading's.*
 
-##Use Case
+## Use Case
 
 This setup can be easily applied into :
 
-```
+
 1. Smart Guide Sticks for the blind/elderly - Signal system lets the user's know of any obstucles in their way
 2. Personal Radar - Alert system that can help user's from keeping belongings safe
 3. Vehicle Smart Sensor's - Can help the driver to park their vehicles more efficiently
-```
