@@ -1,26 +1,14 @@
 # **Smart Intruder Alert System that comprises a combo of HC-SRO4 Ultrasonic Sensor, a Buzzer, LED's & a Arduino Uno**
 
-## Component List 
+This project gives us a great range with high performance while having a low power consumptiom thanks to the HC-SRO4 Ultrasonic Sensor whose accuracy is great with a range of 2 - 450 cm & the Arduino Uno.
 
-```
-Breadboard 1
-Arduino Uno 1
-Jumper Wire’s 15
-Colored LED 6
-USB Data Cable for Arduino 1
-HC-SR04 Ultrasonic Sensor 1
-9V Battery 1
-Buzzer 1
-330 ohm Resistor’s 7
-```
+## Installation
 
-## Circuit Diagram
-
-![Circuit](https://user-images.githubusercontent.com/33223665/152725931-343f5f06-a1f7-4781-aeaa-592e3322d9e0.jpg)
+For installation steps and details of components needed, visit [Link](/Installation.md)
 
 ## Working 
 
-*Once the code is uploaded ,the sensor will start to read the distance and the appropriate signal/alert combination of buzzer & LED’s are applied. 
+*Once the code is uploaded to the Arduino Uno board ,the sensor will start to read the distance and the appropriate signal/alert combination of buzzer & LED’s are applied. 
 If we have connected to the arduino using a serial cable then, the distance is showed up on the serial monitor on the computer .
 The code will first make the HC-SR04 to send a wave of ultrasound which will travel and reflect back to the sensor after interacting with any body. The sensor will also start a timer which measure’s how much time the wave took back and forth.
 This duration will be converted into distance, and the code will pass it on to our function which control’s the alert system which comprises of LED's and Buzzers.*
