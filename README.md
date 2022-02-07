@@ -21,7 +21,7 @@ This duration will be converted into distance, and the code will pass it on to o
 
 ## Use Case
 
-This setup can be easily applied into :
+Possible real life use case where these setup can be easily applied into :
 
 
 1. Smart Guide Sticks for the blind/elderly - Signal system lets the user's know of any obstucles in their way
