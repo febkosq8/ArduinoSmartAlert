@@ -16,3 +16,12 @@ Buzzer 1
 Circuit Diagram
 
 ![Circuit](https://user-images.githubusercontent.com/33223665/152725931-343f5f06-a1f7-4781-aeaa-592e3322d9e0.jpg)
+
+Working 
+
+Once the code is uploaded ,the sensor will start to read the distance and the appropriate signal/alert combination of buzzer & LED’s are applied. 
+If we have connected to the arduino using a serial cable then, the distance is showed up on the serial monitor on the computer .
+The code will first make the HC-SR04 to send a wave of ultrasound which will travel and reflect back to the sensor after interacting with any body. The sensor will also start a timer which measure’s how much time the wave took back and forth.
+This duration will be converted into distance, and the code will pass it on to our function which control’s the alert system which comprises of LED's and Buzzers.
+According to the distance the relevant alert system mentioned below is triggered :
+![TriggerTable](https://user-images.githubusercontent.com/33223665/152726286-ac1ddc4f-97e1-4db8-816b-8ca7c351f76a.png)
